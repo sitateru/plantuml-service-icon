@@ -1,0 +1,20 @@
+@startuml
+
+!definelong ServiceIcon(_alias, _sprite, _color, _skin, _label)
+rectangle "==_label\n<color:_color><$_sprite></color>" <<_skin>> as _alias
+!enddefinelong
+
+!definelong ServiceIcon(_alias, _sprite, _color, _skin, _label, _name)
+rectangle "==_label\n<color:_color><$_sprite></color>\n//<size:12>[_name]</size>//" <<_skin>> as _alias
+!enddefinelong
+
+!definelong ServiceIconColoring(icon)
+skinparam rectangle<<icon>> {
+  BackgroundColor "#ffffff"
+  ' BorderColor "#808080"
+}
+!enddefinelong
+
+skinparam defaultTextAlignment center
+
+@enduml
