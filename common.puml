@@ -1,5 +1,7 @@
 @startuml
 
+!define SERVICEICON_COLOR_GCP #4285f4
+
 !definelong ServiceIcon(_alias, _sprite, _color, _skin, _label)
 rectangle "==_label\n<color:_color><$_sprite></color>" <<_skin>> as _alias
 !enddefinelong

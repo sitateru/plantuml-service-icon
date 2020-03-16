@@ -1,6 +1,4 @@
 @startuml
-!include ./values.puml
-
 sprite $gke [64x64/16z] {
 xPS7hgCX38JTxTp_mhiebaZ1OBtUHYNrWzypLFXQ-XEgHoNZ8quUE-c9zzXBzhZ4GOux73rEiXslSHRLE4L3LlCM7PKXShJan-nUbg56Kuv5TbrfspmLBpCy
 PsTK34dhcESP56eZGrwwJ8gA06H5XdNtYHbU6sBVMwYBmZLYy5c8x38aVomy2pBCzfvii3exdWqo9ALFDLAP7G5F230RV-IjD8-knHh2K9ftGV0YGuabBv12
@@ -10,6 +8,6 @@ I-ylb_yAP_XQ-jC_
 }
 
 ServiceIconColoring(gke)
-!define GKE(_alias, _label) ServiceIcon(_alias, gke, GCP_COLOR, GKE, _label)
+!define GKE(_alias, _label) ServiceIcon(_alias, gke, SERVICEICON_COLOR_GCP, GKE, _label)
 
 @enduml
