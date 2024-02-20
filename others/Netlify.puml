@@ -1,17 +1,11 @@
 @startuml
-sprite $netlify [64x64/16z] {
-jPQ7ak0m24E50V7_NtmbZgF9iiMJpEfkkvyCCYduLLaoy5pE_tg9aoznyYNEV8Sptk44yWq-aEHpFEUFJt42EeLDl3vMJxAuZRDaa1W7NRLhOC6I0p3f_n-n
-itkS0TH_qH5rqbM-rtiQC99rLL-d3FaJFdUb0mW70DObmee_xNvgpQpTU6yXzjsr6ct_rEz_mBKkBeSy-E8MhhGnkEBdwID9Lf8A87C0bZpYvppI9dKgpS6j
-HGHJRjcBpncrb71vfSqQ0OoZYDwxj_XP4lEU9bjqD6H90rcTruGGalST4wEgrGzRMSf01nVmNhtoCmoIusn21eBKWL_VwVm0JROhHA-U6J6enOESlrCtqv8Q
-crlNDEZWbNXeeKP2solrE9Pgy3JzKwfiZWwf3a0cR1LUKe1rLvg6Vvdad18Lhj8kNZhJYJ5D8kdBCEk3W8PJ1y0CWzJe5R_K1u1CGCy0gSNV1h05ebmLVyTb
-iEPg9X5Clvk4WGsNV8tAqBr8kNeEQD8whiGJJkf2aib_9Hik3Lq0vvrEkd8TaUouCXZ8PSy-A6xB19BafPk6EhZzWamtV2K7s6vVVVeJNqcCEcZJl_S0dBr8
-WF0V3Ne7X0dVD00e7Yvyqo1X-XufVDV04OgVmhSD35JymhSD25FymlSD0j7UdFODr07X11uO43Y72VlgpzG0yD30a5MEnmO4IE2XWNf_RY3yaG7nN4O6VbL_
-0G
+
+sprite $netlify [64x56/16z] {
+xTP50eD038NX1p7i_jUjjy4bKs__3VeDx2QOY-sG89pyclzxaPXt8GbU7KGysIbD-xuJraECpGiemccYXoPw43CXkVnM5k7MUBLjNw9esjKKyrwUwAk8B_93
+N3N7AE0Df-hZkM8yqNwP-_Q_u52cWsmGzRtTFDcWJ_Si_J3j8OCmQCflwE_rQBHrRdXMeig8fo_TFzJSXxbnSFuavx7zcvs7FDXvo8FvUVFRt__z7W
 }
 
 ServiceIconColoring(netlify)
-!define Netlify(_alias, _label) ServiceIcon(_alias, netlify, "#20c5b7", Netlify, _label)
-
-' component test-netlify
+!define Netlify(_alias, _label) ServiceIcon(_alias, netlify, "#004848", Netlify, _label)
 
 @enduml
