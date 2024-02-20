@@ -1,0 +1,12 @@
+@startuml
+
+sprite $studio [64x64/16z] {
+xSx55GD140FHOSe_O6jCTtUPj-l-zHJUdXTRJuYhH3WPq7ao8Dul0zt4--vomSml1wATgv_c_GDy79eFnEz-sFWEyKjluywTJyZdX7n2hXXN3tBdywVvWdn1
+VXkmSiMu0kSl_lqyG1uW3vbn3J2k0SOrOE0yxmG
+}
+
+ServiceIconColoring(studio)
+!define Studio(_alias, _label) ServiceIcon(_alias, studio, "#fc0054", Studio, _label)
+
+@enduml
+
