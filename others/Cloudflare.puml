@@ -1,0 +1,12 @@
+@startuml
+
+sprite $cloudflare [64x29/16z] {
+fT9NaiOm309W5U3-Hzu_rPCkpNxl61BRtdY0aeXqwtE8r8GKsYT0H-YLYpgYl1E_u_-Brm-Wxj5AyZ6V_VL7dxt4g2yEE5uPzORbrTqhO3KVxdOLjJmj4q1w
+zSwE68R9zGHG5UROH3_Fj4YiCaOweZRVB37u-FPIkzoc_c6ycmBI9aWSVa4KWfFzVnq7k8xIV-oRO-AN_qviyY16CYQ9dmpN6H_8j_KvMpkeAgwh3wWwFyNx
+-SH9TlBcUOudH9LGkDOZ_W
+}
+
+ServiceIconColoring(cloudflare)
+!define Cloudflare(_alias, _label) ServiceIcon(_alias, cloudflare, "#f88101", Cloudflare, _label)
+
+@enduml
